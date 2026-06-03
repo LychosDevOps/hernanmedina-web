@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hernán Medina | Consultoría en Redes, Infraestructura y Automatización</title>
   <meta name="description" content="Consultoría en redes, infraestructura, automatización, troubleshooting, documentación técnica y operación inteligente para empresas.">
   <link rel="stylesheet" href="css/styles.css">
@@ -10,78 +10,143 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <div class="brand"><a href="#inicio">Hernán Medina</a></div>
-      <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Abrir menú">☰</button>
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">Hernán Medina</a>
+      <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <nav id="primary-nav" class="nav" aria-label="Navegación principal">
-        <ul>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#metodo">Método</a></li>
-          <li><a href="#experiencia">Experiencia</a></li>
-          <li><a href="#laboratorio">Laboratorio</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
+        <a href="#servicios">Servicios</a>
+        <a href="#metodo">Método</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#laboratorio">Laboratorio</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn btn-small" href="mailto:contacto@hernanmedina.com">Solicitar diagnóstico</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section id="inicio" class="hero">
-      <div class="container">
-        <h1>Consultoría en Redes, Infraestructura y Automatización</h1>
-        <p class="lead">Ayudo a empresas a diagnosticar, documentar, optimizar, automatizar y renovar infraestructuras de red críticas de acuerdo a las necesidades del negocio, combinando experiencia en networking empresarial, troubleshooting, seguridad, monitoreo y operación inteligente.</p>
-        <p class="note">Ayudo a empresas a diagnosticar, documentar, optimizar, automatizar y renovar infraestructuras de red críticas de acuerdo a las necesidades del negocio, para reducir riesgos operativos y mejorar la continuidad del servicio.</p>
-        <p>Para contacto técnico, escríbeme a <a href="mailto:contacto@hernanmedina.com">contacto@hernanmedina.com</a> o revisa mi perfil de LinkedIn.</p>
-        <div class="badges" aria-hidden="true">
-          <span>Networking</span>
-          <span>Automation</span>
-          <span>Monitoring</span>
-          <span>Troubleshooting</span>
-          <span>Documentation</span>
-          <span>AI-Ops</span>
+    <section id="inicio" class="hero section-band">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Consultoría técnica para infraestructura crítica</p>
+          <h1>Consultoría en Redes, Infraestructura y Automatización</h1>
+          <p class="lead">Ayudo a empresas a diagnosticar, documentar, optimizar, automatizar y renovar infraestructuras de red críticas de acuerdo a las necesidades del negocio, combinando experiencia en networking empresarial, troubleshooting, seguridad, monitoreo y operación inteligente.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="mailto:contacto@hernanmedina.com">Solicitar diagnóstico</a>
+            <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
+          </div>
+          <div class="badge-row" aria-label="Áreas de enfoque">
+            <span>Networking</span>
+            <span>Automation</span>
+            <span>Monitoring</span>
+            <span>Troubleshooting</span>
+            <span>Documentation</span>
+            <span>AI-Ops</span>
+          </div>
+        </div>
+
+        <div class="network-panel" aria-label="Visual abstracto de redes, monitoreo e infraestructura">
+          <div class="topology">
+            <svg class="topology-lines" viewBox="0 0 520 300" aria-hidden="true" focusable="false">
+              <path d="M260 150 L118 82"></path>
+              <path d="M260 150 L402 82"></path>
+              <path d="M260 150 L132 228"></path>
+              <path d="M260 150 L388 228"></path>
+            </svg>
+            <span class="node node-core">
+              <small>Core</small>
+              <strong>Routing</strong>
+            </span>
+            <span class="node node-edge">
+              <small>Edge</small>
+              <strong>Acceso</strong>
+            </span>
+            <span class="node node-fw">
+              <small>FW</small>
+              <strong>Seguridad</strong>
+            </span>
+            <span class="node node-nms">
+              <small>NMS</small>
+              <strong>Monitoreo</strong>
+            </span>
+            <span class="node node-auto">
+              <small>Auto</small>
+              <strong>Flujos</strong>
+            </span>
+          </div>
+          <div class="telemetry">
+            <div>
+              <span>Visibilidad operativa</span>
+              <i></i>
+            </div>
+            <div>
+              <span>Documentación técnica</span>
+              <i></i>
+            </div>
+            <div>
+              <span>Automatización práctica</span>
+              <i></i>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="problema" class="section">
+    <section id="problemas" class="section">
       <div class="container">
-        <h2>¿Tu infraestructura creció más rápido que tu capacidad de operarla?</h2>
-        <p>Muchas organizaciones dependen de redes críticas, pero conviven con documentación incompleta, cambios manuales, poca visibilidad, configuraciones difíciles de mantener y fallas complejas entre fabricantes o plataformas.</p>
-        <div class="cards">
-          <div class="card">Infraestructura sin documentación clara</div>
-          <div class="card">Cambios manuales y repetitivos</div>
-          <div class="card">Monitoreo limitado</div>
-          <div class="card">Fallas difíciles de diagnosticar</div>
-          <div class="card">Dependencia de conocimiento no documentado</div>
-          <div class="card">Necesidad de automatización práctica</div>
+        <div class="section-heading">
+          <p class="eyebrow">Problemas que resuelvo</p>
+          <h2>¿Tu infraestructura creció más rápido que tu capacidad de operarla?</h2>
+          <p>Muchas organizaciones dependen de redes críticas, pero conviven con documentación incompleta, cambios manuales, poca visibilidad, configuraciones difíciles de mantener y fallas complejas entre fabricantes o plataformas.</p>
+        </div>
+        <div class="cards problem-grid">
+          <article class="card compact"><span class="card-mark"></span>Infraestructura sin documentación clara</article>
+          <article class="card compact"><span class="card-mark"></span>Cambios manuales y repetitivos</article>
+          <article class="card compact"><span class="card-mark"></span>Monitoreo limitado</article>
+          <article class="card compact"><span class="card-mark"></span>Fallas difíciles de diagnosticar</article>
+          <article class="card compact"><span class="card-mark"></span>Dependencia de conocimiento no documentado</article>
+          <article class="card compact"><span class="card-mark"></span>Necesidad de automatización práctica</article>
         </div>
       </div>
     </section>
 
-    <section id="servicios" class="section">
+    <section id="servicios" class="section section-band">
       <div class="container">
-        <h2>Capacidades pensadas para infraestructuras críticas</h2>
+        <div class="section-heading">
+          <p class="eyebrow">Servicios</p>
+          <h2>Capacidades para diagnosticar, ordenar y mejorar la operación</h2>
+        </div>
         <div class="cards services-grid">
           <article class="card">
+            <p class="card-number">01</p>
             <h3>Diagnóstico de infraestructura de red</h3>
             <p>Revisión de arquitectura, configuraciones, riesgos, dependencias y oportunidades de mejora.</p>
           </article>
           <article class="card">
+            <p class="card-number">02</p>
             <h3>Documentación técnica</h3>
             <p>Mapas de red, inventarios, flujos, topologías, configuraciones y procedimientos operativos.</p>
           </article>
           <article class="card">
+            <p class="card-number">03</p>
             <h3>Automatización de configuraciones</h3>
             <p>Diseño de scripts, plantillas y flujos con Python, Jinja2, pyATS, Ansible, Terraform y APIs orientadas a reducir tareas manuales.</p>
           </article>
           <article class="card">
+            <p class="card-number">04</p>
             <h3>Troubleshooting avanzado</h3>
             <p>Análisis de incidentes en routing, switching, firewalls, conectividad, SD-WAN, MPLS, SR-MPLS y ambientes híbridos.</p>
           </article>
           <article class="card">
+            <p class="card-number">05</p>
             <h3>Monitoreo y operación inteligente</h3>
             <p>Bases para dashboards, alertas, visibilidad operativa, telemetría en equipos y NMS de red para gestionar KPI y relaciones de negocio.</p>
           </article>
           <article class="card">
+            <p class="card-number">06</p>
             <h3>Acompañamiento técnico en proyectos</h3>
             <p>Apoyo en licitaciones, implementaciones, migraciones, validaciones técnicas y soporte posimplementación.</p>
           </article>
@@ -91,68 +156,113 @@
 
     <section id="metodo" class="section">
       <div class="container">
-        <h2>Un enfoque técnico, claro y práctico</h2>
-        <ol class="method-list">
-          <li><strong>Entender:</strong> Revisión del contexto, objetivos, restricciones y estado actual.</li>
-          <li><strong>Diagnosticar:</strong> Identificación de riesgos, brechas, dependencias y oportunidades.</li>
-          <li><strong>Diseñar:</strong> Propuesta técnica clara y priorizada.</li>
-          <li><strong>Implementar / acompañar:</strong> Ejecución, documentación, validación y transferencia de conocimiento.</li>
-        </ol>
+        <div class="section-heading">
+          <p class="eyebrow">Método de trabajo</p>
+          <h2>Un enfoque técnico, claro y práctico</h2>
+        </div>
+        <div class="method-grid">
+          <article class="method-step">
+            <span>1</span>
+            <h3>Entender</h3>
+            <p>Revisión del contexto, objetivos, restricciones y estado actual.</p>
+          </article>
+          <article class="method-step">
+            <span>2</span>
+            <h3>Diagnosticar</h3>
+            <p>Identificación de riesgos, brechas, dependencias y oportunidades de mejora.</p>
+          </article>
+          <article class="method-step">
+            <span>3</span>
+            <h3>Diseñar</h3>
+            <p>Propuesta técnica clara, priorizada y alineada a las necesidades del proyecto.</p>
+          </article>
+          <article class="method-step">
+            <span>4</span>
+            <h3>Implementar / acompañar</h3>
+            <p>Ejecución, documentación, validación y transferencia de conocimiento.</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="experiencia" class="section">
+    <section id="experiencia" class="section section-band">
       <div class="container">
-        <h2>Experiencia técnica</h2>
-        <div class="cards">
-          <div class="card">
+        <div class="section-heading">
+          <p class="eyebrow">Experiencia técnica</p>
+          <h2>Áreas de trabajo para infraestructura empresarial</h2>
+        </div>
+        <div class="cards expertise-grid">
+          <article class="card">
             <h3>Networking empresarial</h3>
-            <p>Cisco, Huawei (routers y switches), routing, switching, VLANs, STP, OSPF, BGP, MPLS, SR-MPLS, interoperabilidad entre fabricantes y troubleshooting.</p>
-          </div>
-          <div class="card">
+            <p>Cisco, routing, switching, VLANs, STP, OSPF, BGP y troubleshooting.</p>
+          </article>
+          <article class="card">
             <h3>Seguridad y conectividad</h3>
             <p>Fortinet, firewalls, VPNs, segmentación, políticas y conectividad híbrida.</p>
-          </div>
-          <div class="card">
+          </article>
+          <article class="card">
             <h3>Automatización</h3>
             <p>Python, Jinja2, pyATS, Ansible, Terraform, APIs, plantillas de configuración, parsing y generación de documentación.</p>
-          </div>
-          <div class="card">
-            <h3>Datacenter</h3>
-            <p>Cisco ACI, validación de escenarios, conectividad de datacenter y operación de infraestructura crítica.</p>
-          </div>
-          <div class="card">
+          </article>
+          <article class="card">
+            <h3>Laboratorio y validación</h3>
+            <p>EVE-NG, pruebas controladas, simulación de escenarios y análisis de fallas.</p>
+          </article>
+          <article class="card">
             <h3>Operación</h3>
-            <p>Monitoreo, telemetría, NMS de red, KPI, procedimientos, continuidad operativa y soporte técnico.</p>
-          </div>
+            <p>Monitoreo, telemetría, NMS de red, procedimientos, continuidad operativa y soporte técnico.</p>
+          </article>
         </div>
       </div>
     </section>
 
     <section id="formacion" class="section">
-      <div class="container">
-        <h2>Formación y enfoque técnico</h2>
-        <ul class="badges-list">
-          <li>CCIE Enterprise Infrastructure #63992</li>
-          <li>CCNP Datacenter</li>
-          <li>CCNP Automation</li>
-          <li>Fortinet Certified Associate in Cybersecurity</li>
-          <li>Networking empresarial</li>
-          <li>Seguridad y conectividad</li>
-          <li>Automatización con Python y Jinja2</li>
-          <li>Laboratorios en EVE-NG</li>
-          <li>Monitoreo e infraestructura crítica</li>
-          <li>Formación continua en cloud, automatización y operación inteligente</li>
-        </ul>
-        <p class="note">Las tecnologías y marcas mencionadas se presentan como referencia de conocimiento técnico y no implican relación comercial, representación oficial o partnership con sus propietarios.</p>
+      <div class="container split-section">
+        <div class="section-heading">
+          <p class="eyebrow">Formación y enfoque técnico</p>
+          <h2>Certificaciones y formación técnica aplicada a operación real</h2>
+          <p>Formación técnica orientada a redes empresariales, datacenter, automatización, seguridad, monitoreo y continuidad operativa.</p>
+        </div>
+        <div>
+          <div class="certifications" aria-label="Certificaciones técnicas">
+            <article class="cert-card cert-primary">
+              <span>Certificación destacada</span>
+              <h3>CCIE Enterprise Infrastructure # 63992</h3>
+              <p>Referencia de formación técnica en infraestructura empresarial, routing, switching y operación de redes críticas.</p>
+            </article>
+            <article class="cert-card">
+              <span>Certificación</span>
+              <h3>CCNP Datacenter</h3>
+              <p>Formación técnica asociada a infraestructura de datacenter y operación tecnológica.</p>
+            </article>
+            <article class="cert-card">
+              <span>Certificación</span>
+              <h3>CCNP Automation</h3>
+              <p>Formación técnica asociada a automatización, flujos operativos y herramientas programables.</p>
+            </article>
+          </div>
+          <div class="badge-row badge-block">
+            <span>Fortinet Certified Associate in Cybersecurity</span>
+            <span>Networking empresarial</span>
+            <span>Seguridad y conectividad</span>
+            <span>Automatización con Python y Jinja2</span>
+            <span>Laboratorios en EVE-NG</span>
+            <span>Monitoreo e infraestructura crítica</span>
+            <span>Formación continua en cloud y operación inteligente</span>
+          </div>
+          <p class="notice">Las tecnologías y marcas mencionadas se presentan como referencia de conocimiento técnico y no implican relación comercial, representación oficial o partnership con sus propietarios.</p>
+        </div>
       </div>
     </section>
 
-    <section id="laboratorio" class="section">
-      <div class="container">
-        <h2>Laboratorio técnico y construcción continua</h2>
-        <p>Desarrollo laboratorios y prototipos para validar ideas, automatizar tareas y explorar nuevas formas de operar infraestructura tecnológica.</p>
-        <ul>
+    <section id="laboratorio" class="section section-band">
+      <div class="container split-section">
+        <div class="section-heading">
+          <p class="eyebrow">Laboratorio / proyectos</p>
+          <h2>Laboratorio técnico y construcción continua</h2>
+          <p>Además de la experiencia en campo, desarrollo laboratorios y prototipos para validar ideas, automatizar tareas y explorar nuevas formas de operar infraestructura tecnológica.</p>
+        </div>
+        <ul class="check-list">
           <li>Automatización de configuraciones con Python y Jinja2</li>
           <li>Laboratorios de red en EVE-NG</li>
           <li>Integración de escenarios Cisco, Fortinet y Huawei</li>
@@ -164,15 +274,21 @@
       </div>
     </section>
 
-    <section id="contacto" class="section">
-      <div class="container cta">
-        <h2>¿Quieres revisar el estado de tu infraestructura?</h2>
-        <p>Puedo ayudarte a identificar riesgos, ordenar documentación, mejorar la visibilidad y definir oportunidades prácticas de automatización.</p>
-        <p>
-          <a class="btn btn-primary" href="mailto:contacto@hernanmedina.com">Solicitar conversación</a>
-        </p>
-        <p>Correo: <a href="mailto:contacto@hernanmedina.com">contacto@hernanmedina.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/ing-hernan-medina" target="_blank" rel="noopener">linkedin.com/in/ing-hernan-medina</a></p>
+    <section id="contacto" class="section cta-section">
+      <div class="container">
+        <div class="cta-panel">
+          <p class="eyebrow">Contacto</p>
+          <h2>¿Quieres revisar el estado de tu infraestructura?</h2>
+          <p>Puedo ayudarte a identificar riesgos, ordenar documentación, mejorar la visibilidad y definir oportunidades prácticas de automatización.</p>
+          <div class="hero-actions center-actions">
+            <a class="btn btn-primary" href="mailto:contacto@hernanmedina.com">Solicitar conversación</a>
+            <a class="btn btn-secondary" href="mailto:contacto@hernanmedina.com">Escribir a contacto@hernanmedina.com</a>
+          </div>
+          <div class="contact-note">
+            <h3>Hablemos de tu infraestructura</h3>
+            <p>Si tu organización necesita revisar, documentar, optimizar o automatizar su infraestructura de red, puedes escribirme para coordinar una primera conversación técnica.</p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -181,13 +297,14 @@
     <div class="container footer-inner">
       <div>
         <strong>Hernán Medina</strong>
-        <div>Consultoría en Redes, Infraestructura y Automatización</div>
-      </div>
-      <div class="footer-links">
-        <a href="https://www.linkedin.com/in/ing-hernan-medina" rel="noopener" target="_blank">LinkedIn</a>
-        <a href="#" aria-disabled="true">GitHub</a>
+        <p>Consultoría en Redes, Infraestructura y Automatización</p>
         <a href="mailto:contacto@hernanmedina.com">contacto@hernanmedina.com</a>
       </div>
+      <nav class="footer-links" aria-label="Enlaces oficiales">
+        <a href="https://www.linkedin.com/in/ing-hernan-medina" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" aria-label="GitHub pendiente por definir">GitHub</a>
+        <a href="mailto:contacto@hernanmedina.com">Correo</a>
+      </nav>
     </div>
   </footer>
 
