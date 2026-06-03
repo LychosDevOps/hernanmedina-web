@@ -72,6 +72,12 @@ LinkedIn oficial:
 https://www.linkedin.com/in/ing-hernan-medina
 ```
 
+Credly oficial:
+
+```text
+https://www.credly.com/users/hernan-felipe-medina-sanchez
+```
+
 ## Pendiente para una segunda versión
 
 - Definir enlace oficial de GitHub si se desea mostrar funcionalmente.

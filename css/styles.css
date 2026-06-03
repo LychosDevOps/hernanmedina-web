@@ -528,6 +528,15 @@ h3 {
   font-size: clamp(1.35rem, 3vw, 2rem);
 }
 
+.cert-link {
+  display: inline-flex;
+  margin-top: 14px;
+  color: var(--accent);
+  font-weight: 760;
+  text-decoration-color: rgba(55, 200, 243, 0.45);
+  text-underline-offset: 4px;
+}
+
 .notice {
   margin: 0;
   border-left: 3px solid var(--accent);
