@@ -78,6 +78,12 @@ Credly oficial:
 https://www.credly.com/users/hernan-felipe-medina-sanchez
 ```
 
+WhatsApp oficial:
+
+```text
+https://wa.me/573123794517
+```
+
 ## Pendiente para una segunda versión
 
 - Definir enlace oficial de GitHub si se desea mostrar funcionalmente.

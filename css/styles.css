@@ -252,6 +252,12 @@ h3 {
   color: var(--text);
 }
 
+.btn-whatsapp {
+  border-color: rgba(55, 200, 243, 0.26);
+  background: rgba(55, 200, 243, 0.08);
+  color: var(--text);
+}
+
 .btn-small {
   min-height: 38px;
   padding: 8px 12px;
