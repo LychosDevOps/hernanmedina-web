@@ -464,6 +464,12 @@ h3 {
   font-weight: 800;
 }
 
+.service-wide {
+  background:
+    linear-gradient(135deg, rgba(55, 200, 243, 0.08), transparent 42%),
+    rgba(16, 27, 39, 0.72);
+}
+
 .method-grid {
   display: grid;
   gap: 14px;
@@ -687,6 +693,10 @@ h3 {
 
   .services-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .service-wide {
+    grid-column: span 3;
   }
 
   .expertise-grid {

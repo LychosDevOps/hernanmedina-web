@@ -4,7 +4,7 @@ Primera versión de la landing page profesional de Hernán Medina para hernanmed
 
 ## Descripción
 
-Landing page estática enfocada en consultoría técnica para redes empresariales, infraestructura, automatización, troubleshooting, documentación técnica, monitoreo, datacenter y operación inteligente.
+Landing page estática enfocada en consultoría técnica para redes empresariales, infraestructura, automatización, troubleshooting, documentación técnica, monitoreo, datacenter, operación inteligente, mentoría y capacitación técnica.
 
 ## Stack
 
